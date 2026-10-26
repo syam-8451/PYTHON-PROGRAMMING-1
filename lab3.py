@@ -65,7 +65,7 @@ elif n4 > n5:
 else:
     print(f"{n5} is largest an it's position is 5 from left")
     
-# 6. 6. Rotate the values of three integer variables cyclically, so that the value of a moves to b, the value of b moves to c, and the value of c moves to a, without using a fourth variable or multiple assignment operation.
+6. Rotate the values of three integer variables cyclically, so that the value of a moves to b, the value of b moves to c, and the value of c moves to a, without using a fourth variable or multiple assignment operation.
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 c = float(input("Enter third number: "))

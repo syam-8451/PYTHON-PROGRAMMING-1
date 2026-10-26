@@ -1,4 +1,4 @@
-'''
+
 # 1. Write a Python program to display 'Hello JKLU!' and 'I am learning Python.'
 
 print("Hello JKLU")
@@ -108,4 +108,4 @@ if 1000 <= n < 10000:
     else:
         print("Invalid PIN")
 else:
-    print("Invalid PIN formate")'''
+    print("Invalid PIN formate")

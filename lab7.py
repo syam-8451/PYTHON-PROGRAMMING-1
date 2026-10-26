@@ -1,4 +1,4 @@
-'''
+
 # 1. Write a program to reverse a string without using inbuilt function.
 n = input()
 rev = ""
@@ -136,5 +136,4 @@ for i in range(s):
     for j in range(s-1):
         if n[j]>n[j+1]:
             n[j],n[j+1] = n[j+1],n[j]
-print(n)'''
-
+print(n)

@@ -1,4 +1,4 @@
-'''
+
 # 1. Display the following addition table:            Addition Table         
 #      1   2   3   4   5   6   7   8   9   
 #    -------------------------------------- 
@@ -156,5 +156,4 @@ for s in range (n,1,-1):
         print("*",end = "")
     for m in range (1,s-1):
         print("*",end = "")
-    print()'''
-
+    print()
