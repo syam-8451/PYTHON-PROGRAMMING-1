@@ -64,6 +64,15 @@ elif n4 > n5:
     print(f"{n4} is largest an it's position is 4 from left")
 else:
     print(f"{n5} is largest an it's position is 5 from left")
+    
+# 6. 6. Rotate the values of three integer variables cyclically, so that the value of a moves to b, the value of b moves to c, and the value of c moves to a, without using a fourth variable or multiple assignment operation.
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+a,b,c = b,c,a
+print(round(a))
+print(round(b))
+print(round(c))
 
 7. Take a 3 digit number as input. Check if it is a Harshad number or not, i.e. whether the number is exactly divisible by the sum of its digits. E.g. 1 + 5 + 3 = 9 and 153 / 9 = 17, so 153 is a Harshad number.
 
