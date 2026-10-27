@@ -15,7 +15,7 @@ print("Hello!"+name+",welcome to JKLU.Your branch is",branch)
 length = int(input("Enter length of the rectangle in meters: "))
 width  = int(input("Enter width of rectangle in meters: "))
 area = length * width
-print("Area of rectangle:",area)
+print("Area of rectangle: ",area,"m^2",sep = "")
 
 # 4. Modify Problem 3 to accept dimensions in feet and display the area in square metres. 
 
