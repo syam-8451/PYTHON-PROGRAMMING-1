@@ -3,9 +3,9 @@
 x = float(input("Enter first number: "))
 y = float(input("Enter second number: "))
 if y % x == 0:
-    print(f"{round(y)} is divisible by {round(x)}")
+    print(f"{y} is divisible by {x}")
 else:
-    print(f"{round(y)} is not divisible by {round(x)}")
+    print(f"{y} is not divisible by {x}")
 
 # 2. Take an integer as input and check whether it is even or odd.
 
