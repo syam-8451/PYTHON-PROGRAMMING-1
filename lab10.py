@@ -98,3 +98,5 @@ def stats(numbers):
 numbers = list(map(int,input().split()))
 print(stats(numbers))
 
+
+
