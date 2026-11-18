@@ -37,28 +37,10 @@ for i in n:
         if int(i) == 4 or int(i) == 6:
             boundaries += 1
         total_runs += int(i)
-        if count <= 6:
-            runs += int(i)
-        else:
-            count = 1
-            runs = int(i)
-    runs_in_each_over.append(runs)
-over = []
-for i in range (len(runs_in_each_over)):
-    if len(runs_in_each_over) <= 6:
-        over.append(runs_in_each_over[-1])
-        break
-    else:
-        if i == 6:
-            over.append(runs_in_each_over[i])
-        elif i > 6:
-            over.append(runs_in_each_over[-1])
-        else:
-            continue
 print("Total Runs:",total_runs)
 print("Wickerts:",wickets)
 print("Boundaries:",boundaries)   
-print(over)
+
 
 
 # 4.   Read a list of integers and print the largest and the smallest number in it, without using max() or min().
